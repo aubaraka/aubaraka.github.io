@@ -31,7 +31,7 @@
 
       .container {
         max-width: 375px;
-        padding: 20px;
+        padding: 10px;
         position: absolute;
         top: 50%;
         left: 50%;
@@ -41,8 +41,9 @@
       }
 
       p {
-        font-size: 15px;
         color: hsl(218, 44%, 22%);
+        text-align: center;
+        padding: 0 20px;
       }
 
       img {
@@ -51,34 +52,21 @@
         height: 100%;
         width: 100%;
       }
+      body {
+        background-color: hsl(212, 45%, 89%);
+        font-size: 15px;
+      }
     </style>
   </head>
-  <body style="background-color: hsl(212, 45%, 89%)">
+  <body>
     <div class="container">
       <div class="content">
         <img src="/images/image-qr-code.png" alt="qr" />
-        <p
-          style="
-            font-weight: 700;
-            margin-left: 30px;
-            margin-right: 30px;
-            text-align: justify;
-            justify-content: space-between;
-          "
-        >
-          Improve your front-end <br />
-          skills by building projects
+        <p style="font-weight: 700">
+          Improve your front-end skills by building projects
         </p>
 
-        <p
-          style="
-            color: hsl(220, 15%, 55%);
-            width: 230px;
-            text-align: center;
-            padding-left: 50px;
-            font-weight: 400;
-          "
-        >
+        <p style="color: hsl(220, 15%, 55%); font-weight: 400">
           Scan the QR code to visit Frontend Mentor and take your coding skills
           to the next level
         </p>
@@ -90,18 +78,6 @@
           >. Coded by <a href="#">Aubrey</a>.
         </div>
       </div>
-      <!-- <div class="centered-div">
-        <img src="/images/image-qr-code.png" alt="qr" />
-        <p>
-          <h1>Improve your front-end skills by building projects</h1>
-          <br />
-          <h2>
-            
-          </h2>
-        </p>
-
-        
-      </div> -->
     </div>
   </body>
 </html>
